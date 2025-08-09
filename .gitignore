@@ -16,6 +16,9 @@
 # Mono auto generated files
 mono_crash.*
 
+#AppSettings files because in includes SendGrid API SecretKey and JWT SecretKey which should not be accessible to the public
+appsettings.json
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
